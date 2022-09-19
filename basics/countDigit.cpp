@@ -12,7 +12,7 @@ int bitCount(uint32_t n)
         {
             count++;
         }
-        n = n >> 1; // left shifting by 1
+        n = n << 1; // left shifting by 1
     }
     return count;
 }
